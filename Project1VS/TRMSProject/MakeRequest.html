@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {text-align: center;}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+</head>
+<body>
+    
+<h1>TRMS</h1>
+<h2>Tuition Reimbursement Management System</h2>
+
+
+<div></div>
+<img src="images/expense-reimbursement.png" class="center"/>
+<h3>Make a new Request</h3>
+
+
+<h3>Fill out the form below</h3>
+
+<!-- <form action="/action_page.php"> -->
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </form> 
+ 
+<h4>What is the name of the event?</h4>
+<div>
+  <form>
+    <input type="radio" id="uni_course" name="event" value="uni_course">
+    <label for="uni_course">University Course</label><br>
+
+    <input type="radio" id="seminar" name="event" value="seminar">
+    <label for="seminar">Seminar</label><br>
+
+    <input type="radio" id="cert_prep" name="event" value="cert_prep">
+    <label for="cert_prep">Certification Preparation</label>
+
+    <input type="radio" id="cert" name="event" value="cert">
+    <label for="cert">Certification</label><br>
+
+    <input type="radio" id="tech_training" name="event" value="tech_training">
+    <label for="tech_training">Technical Training</label><br>
+
+    <input type="radio" id="other" name="event" value="other">
+    <label for="other">Other</label><br>
+
+    </form>
+
+
+<h4>What grade did you recieve?</h4>
+<form>
+    <input type="radio" id="pass" name="grade" value="pass">
+    <label for="pass">PASS</label><br>
+    <input type="radio" id="fail" name="grade" value="fail">
+    <label for="fail">FAIL</label><br>
+  </form>
+
+  <!-- <h4>What type of reimbursment coverage are you applying for?</h4>
+  <form>
+      <input type="radio" id="full" name="reimbursment" value="pass">
+      <label for="pass">PASS</label><br>
+      <input type="radio" id="partial" name="reimbursment" value="fail">
+      <label for="fail">FAIL</label><br>
+    </form> -->
+ 
+ 
+    <h4>Date Completed:</h4>
+  <!-- <form action="/action_page.php"> -->
+    <label for="date_completed">Date Completed:</label>
+    <input type="date" id="date" name="date">
+    <input type="submit">
+  </form>
+
+
+</div>
+</body>
+</html>
